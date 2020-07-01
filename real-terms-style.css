@@ -1,5 +1,5 @@
 .box{
-  padding: 40px;
+  padding: 20px;
   position: absolute;
   top: 10%;
   bottom: 10%;
@@ -16,9 +16,7 @@
   text-transform: uppercase;
   font-weight: 500;
 }
-.box h2{
+.box p{
   font-size: 20px;
   color: white;
-  text-transform: uppercase;
-  font-weight: 500;
 }
